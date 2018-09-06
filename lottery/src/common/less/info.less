@@ -1,0 +1,51 @@
+.container {
+    text-align: left;
+    .infoOn {
+        padding: 0.06rem;
+        border-bottom: 0.06rem solid red;
+    }
+    .lieach {
+        padding: 0.2rem;
+        height: 0.94rem;
+        background: #ffffff;
+        margin-bottom: 0.16rem // background: green;
+    }
+    .liWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .details div {
+            height: 0.32rem;
+        }
+        .details div:first-child {
+            text-align: left;
+        }
+    } // 分享挣钱
+    .shareMoneyOn {
+        width: 100%;
+        border-bottom: 0.06rem solid red;
+    }
+}
+
+.root {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #EEF1F3;
+    z-index: 9999999;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+}
+.clearfiex::after,.clearfiex::before{
+    content:"";  
+    display:table; 
+    clear:both;  
+    height: 0;
+    line-height: 0;
+    visibility: hidden; 
+}

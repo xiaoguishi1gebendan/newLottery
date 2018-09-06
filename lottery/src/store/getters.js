@@ -1,0 +1,10 @@
+export const baseSokectQueue = state => state.baseSokectQueue
+export const lotteryList = state => state.lotteryList
+export const histortList = state => state.histortList
+export const ruleTurn = state => state.ruleTurn
+export const betting = state => state.betting
+export const betNumber = state => state.betNumber
+export const listX = state => state.listX
+export const basketList = state => state.basketList
+export const username = state => state.username
+export const password = state => state.password
